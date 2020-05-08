@@ -1,0 +1,65 @@
+body {
+  line-height: 30px;
+}
+
+.container {
+}
+
+.header {
+  background-color: limegreen;
+  color: white;
+  padding: 15px;
+  width: 100%;
+}
+
+.bookmark_zone {
+  float: left;
+  width: 25%;
+}
+
+.content_zone {
+  float: left;
+}
+.footer {
+    background-color: darkgray;
+    position: relative;
+  }
+
+.header,
+.story_item,
+.footer {
+  border-radius: 4px;
+}
+
+.title {
+  padding: 10px;
+  color: crimson;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.main_content {
+  position: absolute;
+}
+
+.story_list {
+}
+
+.story_item:hover {
+  background-color: azure;
+}
+
+.story_item:first-child {
+  background-color: limegreen;
+}
+
+.story_item {
+  background-color: darkgray;
+  border: 1px, solid, black;
+  list-style-type: none;
+  cursor: pointer;
+  margin: 2px;
+}
+
+
